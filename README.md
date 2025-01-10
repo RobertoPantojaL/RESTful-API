@@ -35,17 +35,18 @@ Para comenzar, clona este repositorio en tu máquina local:
 git clone https://github.com/usuario/proyecto-api-ux.git
 cd proyecto-api-ux
 ```
-2. Configuración de la Base de Datos
+### 2. Configuración de la Base de Datos
+
 Base de Datos:
 Asegúrate de tener una base de datos MySQL configurada. Puedes crear una base de datos con el siguiente comando:
 
-sql
+```sql
 Copiar código
 CREATE DATABASE usuarios_db;
 Importa la Base de Datos General:
 En el archivo database.sql encontrarás la estructura básica de la base de datos para usuarios. Importa este archivo en tu servidor MySQL:
 
-bash
+```bash
 Copiar código
 mysql -u root -p usuarios_db < database.sql
 Si deseas proporcionar una base de datos personalizada para los usuarios, crea un archivo .sql con la estructura adecuada y compártelo con los usuarios para que lo puedan importar.
