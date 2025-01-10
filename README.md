@@ -77,40 +77,54 @@ function getDB() {
 La API está en el archivo api.php. Asegúrate de que tu servidor web pueda acceder a este archivo correctamente y que la base de datos esté configurada.
 
 ### 4. Uso de la API
-#### Endpoints
-## - GET: Obtener todos los usuarios o un usuario específico.
+### Endpoints
 
-Ruta: /api.php?id=1
-Descripción: Devuelve todos los usuarios o un usuario específico si se proporciona el id.
-POST: Crear un nuevo usuario.
 
-Ruta: /api.php
-Descripción: Crea un nuevo usuario en la base de datos. Requiere un cuerpo con name y email.
-PUT: Actualizar un usuario existente.
+#### **GET:** Obtener todos los usuarios o un usuario específico.
+- **Ruta:** `/api.php?id=1`
+- **Descripción:** Devuelve todos los usuarios o un usuario específico si se proporciona el `id`.
 
-Ruta: /api.php
-Descripción: Actualiza un usuario con los datos proporcionados en el cuerpo de la solicitud. Requiere id, name, y email.
-DELETE: Eliminar un usuario.
+#### **POST:** Crear un nuevo usuario.
+- **Ruta:** `/api.php`
+- **Descripción:** Crea un nuevo usuario en la base de datos. Requiere un cuerpo con `name` y `email`.
 
-Ruta: /api.php
-Descripción: Elimina un usuario de la base de datos utilizando el id.
-Interfaz de Usuario (UX)
-Funcionalidades
-Ver todos los usuarios: Visualiza todos los usuarios registrados en la base de datos.
-Agregar un nuevo usuario: Permite crear un nuevo usuario mediante un formulario.
-Actualizar un usuario: Permite actualizar la información de un usuario mediante un formulario.
-Eliminar un usuario: Permite eliminar un usuario de la base de datos.
-Requisitos de Frontend
-HTML: Utilizado para la estructura básica de la interfaz.
-CSS: Utiliza Flexbox para el diseño responsive.
-JavaScript: Para manejar las solicitudes a la API y actualizar dinámicamente la tabla de usuarios.
-Contribuciones
+#### **PUT:** Actualizar un usuario existente.
+- **Ruta:** `/api.php`
+- **Descripción:** Actualiza un usuario con los datos proporcionados en el cuerpo de la solicitud. Requiere `id`, `name`, y `email`.
+
+#### **DELETE:** Eliminar un usuario.
+- **Ruta:** `/api.php`
+- **Descripción:** Elimina un usuario de la base de datos utilizando el `id`.
+
+---
+
+### Interfaz de Usuario (UX)
+
+#### **Funcionalidades**
+- **Ver todos los usuarios:** Visualiza todos los usuarios registrados en la base de datos.
+- **Agregar un nuevo usuario:** Permite crear un nuevo usuario mediante un formulario.
+- **Actualizar un usuario:** Permite actualizar la información de un usuario mediante un formulario.
+- **Eliminar un usuario:** Permite eliminar un usuario de la base de datos.
+
+#### **Requisitos de Frontend**
+- **HTML:** Utilizado para la estructura básica de la interfaz.
+- **CSS:** Utiliza Flexbox para el diseño responsive.
+- **JavaScript:** Para manejar las solicitudes a la API y actualizar dinámicamente la tabla de usuarios.
+
+---
+
+### Contribuciones
+
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
-Fork el repositorio.
-Crea una nueva rama (git checkout -b nueva-funcionalidad).
-Realiza tus cambios y haz commit (git commit -am 'Agrega nueva funcionalidad').
-Push a tu rama (git push origin nueva-funcionalidad).
-Crea un pull request.
-Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+1. Fork el repositorio.
+2. Crea una nueva rama (`git checkout -b nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Push a tu rama (`git push origin nueva-funcionalidad`).
+5. Crea un pull request.
+
+---
+
+### Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo `LICENSE` para más detalles.
