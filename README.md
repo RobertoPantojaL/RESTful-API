@@ -34,6 +34,7 @@ Para comenzar, clona este repositorio en tu máquina local:
 ```bash
 git clone https://github.com/usuario/proyecto-api-ux.git
 cd proyecto-api-ux
+```
 2. Configuración de la Base de Datos
 Base de Datos:
 Asegúrate de tener una base de datos MySQL configurada. Puedes crear una base de datos con el siguiente comando:
