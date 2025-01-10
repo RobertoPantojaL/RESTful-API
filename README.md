@@ -72,12 +72,13 @@ function getDB() {
 ?>
 ```
 
-Verifica la API:
+#### Verifica la API:
+
 La API está en el archivo api.php. Asegúrate de que tu servidor web pueda acceder a este archivo correctamente y que la base de datos esté configurada.
 
-Uso de la API
-Endpoints
-GET: Obtener todos los usuarios o un usuario específico.
+### 4. Uso de la API
+#### Endpoints
+## - GET: Obtener todos los usuarios o un usuario específico.
 
 Ruta: /api.php?id=1
 Descripción: Devuelve todos los usuarios o un usuario específico si se proporciona el id.
