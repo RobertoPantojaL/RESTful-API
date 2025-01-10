@@ -21,7 +21,7 @@ Este proyecto es una API RESTful para la gestión de usuarios junto con una inte
 3. **Base de Datos**:  
    - MySQL para almacenar los usuarios y gestionar las operaciones CRUD.
 
-   ## Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Clona el Repositorio
 
